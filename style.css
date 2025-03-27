@@ -153,3 +153,37 @@
     font-size: 40px;
     margin-top: 20px;
 }
+/* .movie-cart */
+/* { */
+    /* width: 100%; */
+    /* height: 70vh; */
+    /* display: flex; */
+    /* gap: 20px; */
+    /* margin-top: 20px; */
+/* } */
+.movie-container
+{
+    display: grid;
+    margin-top: 30px;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.background-1
+{
+    background-image: url(image/online-movie1.jpg);
+    width: 50vh;
+    height: 70vh;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.play
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
